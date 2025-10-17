@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Health App",
+    "slug": "health-app",
+    "version": "1.0.0",
+    "scheme": "healthapp",
+    "owner": "health-app",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "url": "${EXPO_UPDATE_URL}"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "${EXPO_PROJECT_ID}"
+      }
+    }
+  }
+}
